@@ -1,4 +1,4 @@
-![GoIndex](https://raw.githubusercontent.com/donwa/goindex/master/themes/logo.png)  
+![GoIndex](https://raw.githubusercontent.com/CellPhoneChou/goindex/master/themes/logo.png)  
   
 GoIndex  
 ====  
@@ -16,7 +16,7 @@ classic: [https://indexc.gd.workers.dev/](https://indexc.gd.workers.dev/)
 2.Follow [https://rclone.org/drive/]( https://rclone.org/drive/) bind a drive  
 3.Execute the command`rclone config file` to find the file `rclone.conf` path  
 4.Open `rclone.conf`,find the configuration `root_folder_id` and `refresh_token`  
-5.Download index.js in https://github.com/donwa/goindex and fill in root and refresh_token  
+5.Download index.js in https://github.com/CellPhoneChou/goindex and fill in root and refresh_token  
 6.Deploy the code to [Cloudflare Workers](https://www.cloudflare.com/)
 
 ## Quick Deployment  
@@ -28,3 +28,8 @@ classic: [https://indexc.gd.workers.dev/](https://indexc.gd.workers.dev/)
 
 ## About  
 Cloudflare Workers allow you to write JavaScript which runs on all of Cloudflare's 150+ global data centers.  
+
+cfworker中找出23行
+cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/xxxxx/goindex
+xxxxx改成自己Github的库
+比如cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/Reves/goindex
